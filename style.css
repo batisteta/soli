@@ -1,0 +1,352 @@
+mark {
+  background-color: #fff;
+  color: #fff;
+}
+
+body {
+	background-image: url("backg.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+			
+			/* carousel */
+			header { 
+				border: 1px ridge black;
+				background: #fff;
+				overflow: hidden;
+			}
+			
+			header, div img{
+				width: 800px; 
+				height: 341px;
+			}
+			
+			header{ 
+			width:3200px;
+			transform: translateX(-2000px);  
+			}
+			
+			@keyframes slider {
+				0% { transform: translateX(0px); }
+			}
+
+			header{
+				animation-name:slider;
+				animation-duration:32s;
+				animation-iteration-count:infinite;
+				animation-direction: alternate;
+			}
+
+body{
+	font-family: 'Source code pro', Calibri, serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+nav{
+	width: 100%;
+	background-color: #424558;
+}
+
+nav > ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav > ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+nav > ul > li{
+	float: left;
+	position: relative;
+}
+
+nav > ul > li > a{
+	padding: 20px 30px;
+	color: #FFF;
+}
+
+nav > ul > li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+
+nav li{
+	list-style-type: none;
+}
+
+.submenu{
+	display: none;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav li:hover .submenu{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 1000;
+}
+
+.submenu li{
+	border-bottom: 1px solid #CCC;
+}
+.submenu li a{
+	padding: 15px 30px;
+	font-size: 13px;
+	color: #222538;
+	width: 270px;
+}
+
+.menu-accueil:hover{
+	border-top: 10px solid #e44d26;
+	background-color: RGBo(228, 77, 38, 0.15);
+}
+
+.menu-Recette:hover{
+	border-top: 10px solid #0070bb;
+	background-color: RGBo(000, 112, 192, 0.15);
+}
+
+.menu-contact:hover{
+	border-top: 10px solid #f1dc4f;
+	background-color: RGBo(241, 211, 79, 0.15);
+}
+
+.menu-Recette.submenu{
+	background-color: RGB(000, 160, 240);
+}
+
+.submenu li:hover a{
+	color: #EEE;
+	font-weight: bold;
+}
+
+.menu-Recette .submenu{
+	background-color: RGB(000, 115, 200);
+}
+
+			/* css Inscription */
+			body {font-family: Arial;}
+			* {box-sizing: border-box}
+			
+			h1{
+				text-shadow: 2px 2px 8px #32CD32;
+			}
+
+			input[type=text], input[type=mot de passe] {
+				width: 100%;
+				padding: 15px;
+				margin: 5px 0 22px 0;
+				display: inline-block;
+				border: none;
+				background: #f1f1f1;
+			}
+
+			input[type=text]:focus, input[type=Repeter le mot de passe]:focus {
+				background-color: #ddd;
+				outline: none;
+			}
+
+			hr {
+				border: 1px solid #32CD32;
+				margin-bottom: 25px;
+				background-color: #32CD32;
+			}
+
+			button {
+				background-color: #4CAF50;
+				color: white;
+				padding: 14px 20px;
+				margin: 8px 0;
+				border: none;
+				cursor: pointer;
+				width: 100%;
+				opacity: 0.9;
+			}
+
+			button:hover {
+				opacity:1;
+			}
+
+			.cancelbtn {
+				padding: 14px 20px;
+				background-color: #f44336;
+			}
+
+			.cancelbtn, .signupbtn {
+			  float: left;
+			  width: 50%;
+			}
+
+			.container {
+				padding: 16px;
+			}
+
+			.clearfix::after {
+				content: "";
+				clear: both;
+				display: table;
+			}
+
+			@media screen 
+			
+			
+					/* pied de page */ 
+					*{
+						margin: 0px;
+						padding: 0px;
+						box-sizing: border-box;
+					}
+					
+					a{
+						text-decoration: none;
+						outline: none;
+					}
+					
+					.footer-main-div{
+						width: 100%;
+						height: auto;
+						margin: auto;
+						background: #272727;
+						padding: 0px 0px;
+					}
+					
+					.footer-social-icons{
+						width: 100%;
+						height: auto;
+						margin: auto;
+					}
+					
+					.footer-social-icons ul{
+						margin: 0px;
+						padding: 0px;
+						text-align: center;
+					}
+					
+					.footer-social-icons ul li{
+						display: inline-block;
+						width: 50px;
+						height: 50px;
+						margin: 0px 15px;
+						border-radius: 100%;
+						background: #32CD32;
+					}
+					
+					.footer-social-icons ul li:hover{
+						background:#f00;
+					}
+					
+					.footer-social-icons ul li:hover a{
+						color: #fff;
+					}
+					
+					.footer-social-icons ul li a{
+						color: #272727;
+						font-size: 25px;
+					}
+					
+					.footer-social-icons ul li a i{
+						line-height: 50px;
+					}
+					
+					.footer-social-icons ul li a img{
+						display: inline-block;
+						width: 50px;
+						height: 50px;
+						margin: 0px 0px;
+						border-radius: 100%;
+						opacity: 0.75;
+						filter:alpha(opacity=10)
+					}
+					.footer-menu-one{
+						width: 100%;
+						height: auto;
+						margin: auto;
+						margin-top:10px;
+					}
+					
+					.footer-menu-two{
+						width: 100%;
+						height: auto;
+						margin: auto;
+						margin-top:20px;
+					}
+					
+					.footer-menu-one ul{
+						margin: 0px;
+						padding: 0px;
+						text-align: center;
+					}
+					
+					.footer-menu-two ul{
+						margin: 0px;
+						padding: 0px;
+						text-align: center;
+					}
+					
+					.footer-menu-one ul li{
+						display: inline-block;
+						margin: 0px 25px;
+					}
+					
+					.footer-menu-two ul li{
+						display: inline-block;
+						margin: 0px 25px;
+					}
+					
+					.footer-menu-one ul li a{
+						font-family: arial;
+						font-size: 16px;
+						font-weight: 600;
+						color: #fff;
+						letter-spacing: 1px;
+						text-transform: uppercasse;
+					}
+					
+					.footer-menu-one ul li a:hover{
+						color: #32CD32;
+					}
+					
+					.footer-menu-two ul li a{
+						font-family: arial;
+						font-size: 14px;
+						font-weight: 600;
+						color: #fff;
+						text-transform: uppercasse;
+					}
+					
+					.footer-menu-two ul li a:hover{
+						color: #32CD32;
+					}
+					
+					.footer-bottom{
+						width: 100%;
+						height: auto;
+						margin: auto;
+						background: #32CD32;
+						padding: 5px;
+					}
+					
+					.footer-bottom p{
+						font-family: arial;
+						font-size: 14px;
+						text-align: center;
+						padding: #fff;
+						font-weight: 600;
+						letter-spacing: 1px;
+					}
+					
+					.footer-bottom p a{
+						color: #fff;
+					}
+					
+					.footer-bottom p a:hover{
+						color: #272727;
+					}
