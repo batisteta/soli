@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<title>Nos Desserts</title>
@@ -21,7 +21,10 @@
 				</ul>
 			</nav>
 		<div>
-			<center><h1>Les Desserts</h1></center>
+			<form style="border:2px solid #32CD32">
+			<mark><center><h1>Les Desserts</h1></center></mark>
+			</form>
+			<br/>
 			<center> <img src="creme.jpg" alt="crême brûlée"> </center>
 				<form style="border:1px solid #32CD32">
 					<mark><p class="oblique">Etape 1 :</p>
