@@ -29,16 +29,16 @@
 			<mark><h1>S'inscrire</h1></mark>
 				<hr>
 			<p style="color:green">	<label><b>Email</b></label>
-				<input type="text" placeholder="Entrer un email" name="email" required>
+				<input type="text" placeholder="Entrer un email" name="mail" required>
 				<br /></p>
 			<p style="color:green">	<label><b>Pseudo</b></label>
-				<input type="password" placeholder="Choisissez votre pseudo" name="name" required>
+				<input type="text" placeholder="Choisissez votre pseudo" name="name" required>
 				<br /></p>
 			<p style="color:green">	<label><b>Mot de passe</b></label>
-				<input type="password" placeholder="Entrer un mot de passe" name="mdp" required>
+				<input type="password" placeholder="Entrer un mot de passe" name="pwd" required>
 				<br /></p>
 			<p style="color:green">	<label><b>Répéter le mot de passe</b></label>
-				<input type="password" placeholder="Repeter le mot de passe" name="mdp-repeat" required>
+				<input type="password" placeholder="Repeter le mot de passe" name="rpwd" required>
 				<br /></p>
 				<label>
 			<p style="color:green">	<input type="checkbox" checked="Verifier" style="margin-bottom:15px"> Se rappeler de moi
@@ -47,8 +47,8 @@
 				<hr>
 			
 				<div class="clearfix">
-				  <button type="button" class="cancelbtn">Annuler</button>
-				  <button type="submit" class="signupbtn">S'enregistrer</button>
+				  <button type="button" class="cancelbtn"value="Save">Annuler</button>
+				  <button type="submit" class="signupbtn" value="Save">S'enregistrer</button>
 				</div>
 			</div>
 		</form>
@@ -62,7 +62,7 @@
 				<ul>
 					<li><a href="https://www.facebook.com/solibio.eu/" target target="blank"><img src="logoFB.jpg"><i class="fa-facebook"></i></a></li>
 					<li><a href="https://www.solibio.eu/presentation-solibio" target target="blank"><img src="soli.jpg"><i class="fa fa-solibio"></i></a></li>
-					<li><a href="https://www.gralon.net/mairies-france/eure-et-loir/association-amicale-du-lycee-fulbert-chartres_W281005626.htm" target target="blank"><img src="mozi.jpg"><i class="fa fa-google-plus"></i></a></li>
+					<li><a href="https://www.gralon.net/mairies-france/eure-et-loir/association-amicale-du-lycee-fulbert-chartres_W281005626.htm" target target="blank"><img src="mozi.png"><i class="fa fa-google-plus"></i></a></li>
 					<li><a href="https://www.youtube.com/watch?v=tJEVqqRPg3g" target target="blank"><img src="you.jpg"><i class="fa fa-youtube"></i></a></li>
 				</ul>
 			</div>
