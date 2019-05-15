@@ -236,7 +236,6 @@ nav li:hover .submenu{
 						height: 50px;
 						margin: 0px 15px;
 						border-radius: 100%;
-						background: #32CD32;
 					}
 					
 					.footer-social-icons ul li:hover{
@@ -349,4 +348,4 @@ nav li:hover .submenu{
 					
 					.footer-bottom p a:hover{
 						color: #272727;
-					}
+}
