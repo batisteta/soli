@@ -23,29 +23,35 @@
 		<br/><br/>
 		
 
+		<form method="POST" action="Inscription.php">
 		<form style="border:1px solid #32CD32">
 			<div class="container">
-				<h1>S'inscrire</h1>
+			<mark><h1>S'inscrire</h1></mark>
 				<hr>
-				<label><b>Email</b></label>
+			<p style="color:green">	<label><b>Email</b></label>
 				<input type="text" placeholder="Entrer un email" name="email" required>
-				<br />
-				<label><b>Mot de passe</b></label>
+				<br /></p>
+			<p style="color:green">	<label><b>Pseudo</b></label>
+				<input type="password" placeholder="Choisissez votre pseudo" name="name" required>
+				<br /></p>
+			<p style="color:green">	<label><b>Mot de passe</b></label>
 				<input type="password" placeholder="Entrer un mot de passe" name="mdp" required>
-				<br />
-				<label><b>Répéter le mot de passe</b></label>
+				<br /></p>
+			<p style="color:green">	<label><b>Répéter le mot de passe</b></label>
 				<input type="password" placeholder="Repeter le mot de passe" name="mdp-repeat" required>
-				<br />
+				<br /></p>
 				<label>
-				  <input type="checkbox" checked="Verifier" style="margin-bottom:15px"> Se rappeler de moi
-				</label>
+			<p style="color:green">	<input type="checkbox" checked="Verifier" style="margin-bottom:15px"> Se rappeler de moi
+				</label></p>
 				<a href="#" style="color:dodgerblue">Terms & Privacy</a>.
 				<hr>
+			
 				<div class="clearfix">
 				  <button type="button" class="cancelbtn">Annuler</button>
 				  <button type="submit" class="signupbtn">S'enregistrer</button>
 				</div>
 			</div>
+		</form>
 		</form>
 		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 		<!-- footer !-->
