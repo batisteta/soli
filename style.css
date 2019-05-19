@@ -19,11 +19,13 @@ body {
 			header, div img{
 				width: 800px; 
 				height: 341px;
+				overflow: hidden;
 			}
 			
 			header{ 
 			width:3200px;
-			transform: translateX(-2000px);  
+			transform: translateX(-2000px);
+			overflow: hidden;
 			}
 			
 			@keyframes slider {
@@ -348,4 +350,4 @@ nav li:hover .submenu{
 					
 					.footer-bottom p a:hover{
 						color: #272727;
-}
+					}
