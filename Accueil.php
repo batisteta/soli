@@ -12,9 +12,8 @@
 				<li class="menu-Recette"><a href="Nouveautes.php">Nos recettes</a>
 					<ul class="submenu">
 						<li><a href="Nouveautes.php">Tout savoir en video!</a></li>
-						<li><a href="Viande.php">Liste de recettes rapides</a></li>
-						<li><a href="Viande.php">Nos entrées</a></li>
-						<li><a href="Viande.php">Nos plats</a></li>
+						<li><a href="Entree.php">Nos entrées</a></li>
+						<li><a href="Nosplats.php">Nos plats</a></li>
 						<li><a href="Dessert.php">Nos desserts</a></li>
 				</ul></li>
 				<li class="menu-contact"><a href="Contact.php">Nous Rejoindre</a></li>
@@ -30,15 +29,18 @@
 					<img src="Viande1.jpg" alt="viande1">
 				</div>
 		</header></center>
-		<br/><br/><br/><br/><br/><br/><br/>
+		<br/><br/><br/>
 				<div>
+			<form style="border:2px solid #32CD32">
 			<center><h1>Présentation</h1></center>
+			</form>
+			<br/><br/>
 			<center> <img src="fulb.png" alt="Lycee Fulbert"> </center>
 			<br/>
 				<form style="border:1px solid #32CD32">
 					<mark><p class="oblique">Bienvenue sur notre site !</p>
 
-					<p class="thick">Notre site à pour projet d'accompagner l'association "les amicale" du lycée fulbert situé à chartres</p>
+					<p class="thick">Notre site à pour projet d'accompagner l'association "l'amicale" du lycée fulbert situé à chartres</p>
 
 					<p class="oblique">Notre objectif :</p>
 					<p class="normal">	- Concevoir un site internet en respectant des normes bien précises.<br/>
@@ -46,14 +48,14 @@
 										- Savoir travailler en équipe lors d'un projet et améliorer notre autonomie.</p>
 
 					<p class="oblique">Pour qui ?</p>
-					<p class="normal">Nous concevons un site internet pour l'association "les amicale" basés au lycée fulbert et en partenariat avec Solibio.</p>
+					<p class="normal">Nous concevons un site internet pour l'association "l'amicale" basés au lycée fulbert et en partenariat avec Solibio.</p>
 					</mark>
 				</form>
 		</div>
 		
 		<br/><br/><br/><br/><br/><br/><br/><br/><br/>
 		
-		<!-- footer !-->
+				<!-- footer !-->
 		<footer>
 			<div class="footer-main-div">
 		
@@ -69,13 +71,13 @@
 				<ul>
 					<li><a href="accueil.php">Accueil</a></li>
 					<li><a href="about.php">A propos de nous</a></li>
-					<li><a href="#">Nos recettes</a></li>
+					<li><a href="Entree.php">Nos recettes</a></li>
 					<li><a href="Contact.php">Nous Rejoindre</a></li>
 				</ul>
 			</div>
 			<div class="footer-menu-two">
 				<ul>
-					<li><a href="Viande.php">Commentaires</a></li>
+					<li><a href="Nosplats.php">Commentaires</a></li>
 					<li><a href="Nouveautes.php">Nouveautés</a></li>
 					<li><a href="accueil.php">Galeries</a></li>
 				</ul>
